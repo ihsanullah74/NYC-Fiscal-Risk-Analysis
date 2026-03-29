@@ -5,12 +5,12 @@
 ## 📝 Executive Summary
 Can New York City’s **"Affordability Agenda"** survive a $12B budget deficit? This project conducts an independent **Quantitative Stress-Test** on proposed policies—including Free Bus Transit, Universal Rent Freezes, and Subsidized Grocery programs.
 
-[cite_start]By simulating **100,000 economic scenarios**, this analysis determines the true probability of fiscal sustainability against a **$2.0 Billion** budget threshold.
+By simulating **100,000 economic scenarios**, this analysis determines the true probability of fiscal sustainability against a **$2.0 Billion** budget threshold.
 
 ---
 
 ## ⚙️ Technical Methodology
-[cite_start]To account for economic uncertainty (inflation, administrative overhead, and ridership spikes), I modeled the total annual cost as a sum of stochastic variables sampled from normal distributions.
+To account for economic uncertainty (inflation, administrative overhead, and ridership spikes), I modeled the total annual cost as a sum of stochastic variables sampled from normal distributions.
 
 ### The Model
 The Total Annual Cost ($C_{total}$) is defined as:
@@ -22,14 +22,14 @@ Where each individual policy cost ($P_i$) is sampled as:
 $$P_i \sim \mathcal{N}(\mu_i, \sigma_i)$$
 
 ### Simulation Parameters:
-* [cite_start]**Total Iterations:** 100,000 simulations 
-* [cite_start]**Budget Ceiling:** $2,000,000,000 
-* [cite_start]**Risk Margin:** 20% Standard Deviation applied across policy means 
+* **Total Iterations:** 100,000 simulations 
+* **Budget Ceiling:** $2,000,000,000 
+* **Risk Margin:** 20% Standard Deviation applied across policy means 
 
 ---
 
 ## 📈 Key Findings
-[cite_start]Based on the simulation results:
+Based on the simulation results:
 * **Mean Estimated Cost:** $2,670,526,606
 * **Max Estimated Cost:** $5,002,921,319
 * **Risk of Failure:** There is a **90.00% probability** that implementation costs will exceed the $2.0B budget threshold.
@@ -38,6 +38,6 @@ $$P_i \sim \mathcal{N}(\mu_i, \sigma_i)$$
 
 ## 🛠️ Tools & Libraries
 * **Python 3.x**
-* [cite_start]**NumPy:** High-performance stochastic simulations 
-* [cite_start]**Matplotlib:** Distribution and risk visualization 
+* **NumPy:** High-performance stochastic simulations 
+* **Matplotlib:** Distribution and risk visualization 
 * **Pandas:** Data structuring and manipulation
