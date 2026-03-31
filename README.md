@@ -34,7 +34,8 @@ Based on the simulation results:
 * **Max Estimated Cost:** $5,002,921,319
 * **Risk of Failure:** There is a **90.00% probability** that implementation costs will exceed the $2.0B budget threshold.
 
----
+---<img width="606" height="385" alt="Screenshot 2026-03-29 204141" src="https://github.com/user-attachments/assets/9273f389-b850-4279-a9bc-ca200ab9253e" />
+
 
 ## 🛠️ Tools & Libraries
 * **Python 3.x**
